@@ -23,7 +23,9 @@ Instructions
 
 4. Specify the statistical & simulation parameters in the configuration structure 'cfg_simulations'
 
-5. Run simulations and evaulate results:
+5. Load oscillatory phase time series 'alpha_phase_all_subjects' or 'EGG_phase_all_subjects'. These contain the time series of 30 participants (12-15 minute length)
+
+6. Run simulations and evaulate results:
 - Compare statistical tests (Phase Opposition Sum, Circular Logistic Regression, the Watson test, Modulation Index, and the Rayleigh test), and methods to assess significance at the group level (t-test on empirical vs. chance, surrogate average and three individual p-value combination methods)
   Here, different circular tests are compared in terms of sensitivty and False Positive rate as a function of the strength of the injected phase-outcome coupling. This section also compares different methods to estimate significance on the group level, and compares permutation statistics with tabulates statistics
 - Number of trials in total:
