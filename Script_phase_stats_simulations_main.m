@@ -20,7 +20,7 @@
 %%% statistics-toolbox-directional-statistics
 %%% Reference:
 %%% Berens, P. (2009). CircStat: A MATLAB Toolbox for Circular Statistics. 
-%%% J. Stat. Softw. 31, 1–21. doi:10.18637/jss.v031.i10
+%%% J. Stat. Softw. 31, 1â€“21. doi:10.18637/jss.v031.i10
 %%%
 %%% Copyright (C) 2020, Laboratoire de Neurosciences Cognitives, Nicolai 
 %%% Wolpert, Catherine Tallon-Baudry
@@ -39,10 +39,10 @@
 clear all; close all;
 
 % Specify root directory containing scripts and functions
-root_dir = strcat(['C:\Users\Etudiant\Documents\Simulations_phase_statistics' filesep]);
+root_dir = '';
 
 % Specify path to circular statistics toolbox
-path_circstats = strcat(['C:\Users\Etudiant\Documents\Simulations_phase_statistics' filesep]);
+path_circstats = '';
 
 addpath(genpath(root_dir));
 addpath(genpath(path_circstats));
