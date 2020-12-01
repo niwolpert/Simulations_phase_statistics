@@ -341,6 +341,7 @@ delete(poolobj);
 
 %%% Compute sensitivity and False Positive rate based on results
 % Results are saved in root directory
+signific_thresh = 0.05;
 merge_results_per_relative_number_observations(cfg_simulations, root_dir, nexperiments, thresh_sign)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Evaluate results %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
