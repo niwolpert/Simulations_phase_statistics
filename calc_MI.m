@@ -38,6 +38,15 @@ ntotal_bins=nhits_bins+nmisses_bins;
 % compute hit rate for each phase bin
 hr_bins = nhits_bins./ntotal_bins;
 
+% If MI does not contain a hit in one bin (i.e. hit rate = 0), ignore this
+% bin
+if any(hr_bins==0)
+    warning('Hit rate in one bin is zero, ignoring bin');
+    
+    hr_bins(hr_bins==0) = [];
+    nphasebins = length(hr_bins);
+end
+
 MI = (log(nphasebins)-(-sum((hr_bins / sum(hr_bins)).* log((hr_bins /  sum(hr_bins))))))/log(nphasebins);
 
 end
