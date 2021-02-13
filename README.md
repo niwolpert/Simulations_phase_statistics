@@ -26,12 +26,12 @@ Instructions
 5. Load oscillatory phase time series 'alpha_phase_all_subjects' or 'EGG_phase_all_subjects'. These contain the time series of 30 participants (12-15 minute length)
 
 6. Run simulations and evaulate results:
-- Compare statistical tests (Phase Opposition Sum, Circular Logistic Regression, the Watson test, Modulation Index, and the Rayleigh test), and methods to assess significance at the group level (t-test on empirical vs. chance, surrogate average and three individual p-value combination methods)
+- Compare statistical tests (Phase Opposition Sum, Circular Logistic Regression, the Watson test and Modulation Index), and methods to assess significance at the group level (t-test on empirical vs. chance, surrogate average and three individual p-value combination methods)
   Here, different circular tests are compared in terms of sensitivty and False Positive rate as a function of the strength of the injected phase-outcome coupling. This section also compares different methods to estimate significance on the group level, and compares permutation statistics with tabulates statistics
 - Number of trials in total:
   In this section, we compare the dependency of circular tests on the total number of trials
 - Relative number of observations:
   Here, we systematically vary the relative number of observations in the two outcome conditions, and estimate sensitivity and False Positive rate of the five tests each each relative number of observations. We additionally investigate how a resampling procedure to control for an imbalanced amount of trials can recover sensitivity
-- Optimal number of bins for Modulation Index (MI):
- Because MI depends on the logarithm of hit rate, it cannot be computed in the case that a given phase bin contains no hit. Here, estimate the relationship between the total number of trials (hits+misses), number of phase bins and the likelihood that MI cannot be computed.
+- Amplitude of the underlying oscillation
+ Here, we assess the impact of the amplitude of the underlying oscillation based on which outcome probability is modulated
   
