@@ -75,7 +75,7 @@ if nresamples>0
             all_POS_resample(iresample) = calc_POS(phases_hits_resample, phases_misses);
             
             % compute MI on resampled set of hits
-            all_MIs_resample(iresample) = calc_MI(phases_hits_resample, phases_misses, cfg_simulations.nphasebins);
+            all_MIs_resample(iresample) = calc_MI(phases_hits_resample, phases_misses, cfg_simulations.MI_nphasebins);
             
             % compute Watson's U2 on resampled set of hits
             all_U2watson_resample(iresample) = watsons_U2(phases_hits_resample', phases_misses');
@@ -98,7 +98,7 @@ if nresamples>0
             all_POS_resample(iresample) = calc_POS( phases_hits, phases_misses_resample );
             
             % compute MI on resampled set of misses
-            all_MIs_resample(iresample) = calc_MI(phases_hits, phases_misses_resample, cfg_simulations.nphasebins);
+            all_MIs_resample(iresample) = calc_MI(phases_hits, phases_misses_resample, cfg_simulations.MI_nphasebins);
             
             % compute Watson's U2 on resampled set of misses
             all_U2watson_resample(iresample) = watsons_U2(phases_hits', phases_misses_resample');
