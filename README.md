@@ -31,7 +31,7 @@ Instructions
 - Number of trials in total:
   In this section, we compare the dependency of circular tests on the total number of trials
 - Relative number of observations:
-  Here, we systematically vary the relative number of observations in the two outcome conditions, and estimate sensitivity and False Positive rate of the five tests each each relative number of observations. We additionally investigate how a resampling procedure to control for an imbalanced amount of trials can recover sensitivity
+  Here, we systematically vary the relative number of observations in the two outcome conditions, and estimate sensitivity and False Positive rate of the five tests each relative number of observations. We additionally investigate how a resampling procedure to control for an imbalanced amount of trials can recover sensitivity
 - Amplitude of the underlying oscillation:
  Here, we assess the impact of the amplitude of the underlying oscillation based on which outcome probability is modulated
   
