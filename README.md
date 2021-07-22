@@ -9,8 +9,8 @@ DISCLAIMER: This code is provided without explicit or implicit guarantee, and wi
 
 Purpose
 -------------
-The aim of these scripts is to compare different statistical methods to evaluate the coupling between oscillatory phase and a binary behavioral outcome. We create semi-artificial datasets mimicking real experiments, where we inject a statistical link between a simulated behavioral outcome and the phases of physiological oscillations from 30 participants. These two oscillations are the brain alpha rhythm (8-13 hz) and a very slow oscillation at ~0.05 Hz corresponding to the gastric rhythm (see 'alpha_phase_all_subjects' and 'EGG_phase_all_subjects' provided with the code). We systematically vary the strength of phase-outcome coupling, the coupling mode (1:1 to 4:1), the overall number of trials, the relative number of trials in the two outcome conditions, and evaluate different strategies to estimate phase-outcome coupling chance level, as well as significance at the individual or group level.
-These scripts perform the computations of the simulations and save and vizualize the results.
+The aim of these scripts is to compare different statistical methods to evaluate the coupling between oscillatory phase and a binary behavioral outcome. We create semi-artificial datasets mimicking real experiments, where we inject a statistical link between a simulated behavioral outcome and the phases of physiological oscillations from 30 participants. These two oscillations are the brain alpha rhythm (8-13 Hz) and a very slow oscillation at ~0.05 Hz corresponding to the gastric rhythm (see 'alpha_phase_all_subjects' and 'EGG_phase_all_subjects' provided with the code). We systematically vary the strength of phase-outcome coupling, the coupling mode (1:1 to 4:1), the overall number of trials, the relative number of trials in the two outcome conditions, and evaluate different strategies to estimate phase-outcome coupling chance level, as well as significance at the individual or group level.
+These scripts perform the computations of the simulations and save and visualize the results.
 
 Instructions
 -----------------------
@@ -27,7 +27,7 @@ Instructions
 
 6. Run simulations and evaulate results:
 - Compare statistical tests (Phase Opposition Sum, Circular Logistic Regression, the Watson test and Modulation Index), and methods to assess significance at the group level (t-test on empirical vs. chance, surrogate average and three individual p-value combination methods)
-  Here, different circular tests are compared in terms of sensitivty and False Positive rate as a function of the strength of the injected phase-outcome coupling. This section also compares different methods to estimate significance on the group level, and compares permutation statistics with tabulates statistics
+  Here, different circular tests are compared in terms of sensitivity and False Positive rate as a function of the strength of the injected phase-outcome coupling. This section also compares different methods to estimate significance on the group level, and compares permutation statistics with tabulates statistics
 - Number of trials in total:
   In this section, we compare the dependency of circular tests on the total number of trials
 - Relative number of observations:
